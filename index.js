@@ -25,6 +25,10 @@ console.log(typeof(dataNilai))
 
 // push() => untuk menambahkan item di index terakhir 
 // namaArray.push("ikan")
-console.log(`Data Array:${buah}`)
+console.log(`Data Array:\n${buah}`)
 buah.push("anggur")
 console.log(`Data Array sesudah di Push:${buah}`)
+
+// pop() => untuk menghapus item di index terakhir 
+buah.pop()
+console.log(`data sesudah di pop ${buah}`)
